@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from 'react'
+import axios from 'axios'
 
 const Search = () => {
 
 const [userInput, setUserInput] = useState('');
 
 useEffect(() => {
-  console.log('huhuhuh')
+  const search = async () => {
+    await axios.get('')
+  };
+
+  search();
 }, [userInput])
 
   return (
