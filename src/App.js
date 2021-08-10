@@ -1,6 +1,7 @@
 import React from 'react'
 import Accordion from './Components/Accodion'
 import Search from './Components/Search'
+import DropDown from './Components/Dropdown'
 
 const items = [ 
   {
@@ -23,7 +24,8 @@ const items = [
 export default  () => {
   return(
     <div>
-      <Search />
+      <DropDown />
+    
     </div>
   )
 }
